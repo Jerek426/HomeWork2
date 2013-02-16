@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world_regions
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='./WorldRegions.xsd'>
+
+    <regions_list>    
+        <!-- THE WORLD HAS ALL THE CONTINENTS -->
+        <region id="World"          name="Hello World"      type="WORLD"        />
+
+        <!-- CONTINENTS -->
+        <region id="Africa"         name="Africa"           type="CONTINENT"    />
+        <region id="Asia"           name="Asia"             type="CONTINENT"    />
+        <region id="Antarctica"     name="Antarctica"       type="CONTINENT"    />
+        <region id="Europe"         name="Europe"           type="CONTINENT"    />
+        <region id="North America"  name="North America"    type="CONTINENT"    />
+        <region id="Oceania"        name="Oceania"          type="CONTINENT"    />
+        <region id="South America"  name="South America"    type="CONTINENT"    />
+
+        <!-- AFRICAN NATIONS -->
+        <region id="DZ" name="Algieria"                         type="NATION" capital="Algiers" />
+        <region id="AO" name="Angola"                           type="NATION" capital="Luanda" />
+        <region id="BJ" name="Benin"                            type="NATION" capital="Porto Novo" />
+        <region id="BW" name="Botswana"                         type="NATION" capital="Gaborone" />
+        <region id="BF" name="Burkina Faso"                     type="NATION" capital="Ouagadougou" />
+        <region id="BI" name="Burundi"                          type="NATION" capital="Bujumbura" />
+        <region id="CM" name="Cameroon"                         type="NATION" capital="Yaounde" />
+        <region id="CV" name="Cape Verde"                       type="NATION" capital="Praia" />
+        <region id="CF" name="Central African Republic"         type="NATION" capital="Bangui" />
+        <region id="TD" name="Chad"                             type="NATION" capital="N'Djamena" />
+        <region id="KM" name="Comoros"                          type="NATION" capital="Maroni" />
+        <region id="CD" name="Democratic Republic of the Congo" type="NATION" capital="Kinshasa" />
+        <region id="CG" name="Congo"                            type="NATION" capital="Brazzaville" />
+        <region id="CI" name="Cote d'Ivoire"                    type="NATION" capital="Yamoussoukro" />
+        <region id="DJ" name="Djibouti"                         type="NATION" capital="Djibouti" />
+        <region id="EG" name="Egypt"                            type="NATION" capital="Cairo" />
+        <region id="GQ" name="Equatorial Guinea"                type="NATION" capital="Malabo" />
+        <region id="ER" name="Eritrea"                          type="NATION" capital="Asmara" />
+        <region id="ET" name="Ethiopia"                         type="NATION" capital="Addis Ababa" />
+        <region id="GA" name="Gabon"                            type="NATION" capital="Libreville" />
+        <region id="GM" name="Gambia"                           type="NATION" capital="Banjul" />
+        <region id="GH" name="Ghana"                            type="NATION" capital="Accra" />
+        <region id="GN" name="Guinea"                           type="NATION" capital="Conakry" />
+        <region id="GW" name="Guinea-Bissau"                    type="NATION" capital="Bissau" />
+        <region id="KE" name="Kenya"                            type="NATION" capital="Nairobi" />
+        <region id="LS" name="Lesotho"                          type="NATION" capital="Maseru" />
+        <region id="LR" name="Liberia"                          type="NATION" capital="Monrovia" />
+        <region id="LY" name="Libya"                            type="NATION" capital="Tripoli" />
+        <region id="MG" name="Madagascar"                       type="NATION" capital="Antananarivo" />
+        <region id="MW" name="Malawi"                           type="NATION" capital="Lilongwe" />
+        <region id="ML" name="Mali"                             type="NATION" capital="Bamako" />
+        <region id="MR" name="Mauritania"                       type="NATION" capital="Nouakchott" />
+        <region id="MU" name="Mauritius"                        type="NATION" capital="Port Louis" />
+        <region id="MA" name="Morocco"                          type="NATION" capital="Rabat" />
+        <region id="MZ" name="Mozambique"                       type="NATION" capital="Maputo" />
+        <region id="NA" name="Namibia"                          type="NATION" capital="Windhoek" />
+        <region id="NE" name="Niger"                            type="NATION" capital="Niamey" />
+        <region id="NG" name="Nigeria"                          type="NATION" capital="Abuja" />
+        <region id="RW" name="Rwanda"                           type="NATION" capital="Kigali" />
+        <region id="ST" name="São Tomé and Principe"            type="NATION" capital="São Tomé" />
+        <region id="SN" name="Senegal"                          type="NATION" capital="Dakar" />
+        <region id="SC" name="Seychelles"                       type="NATION" capital="Victoria" />
+        <region id="SL" name="Sierra Leone"                     type="NATION" capital="Freetown" />
+        <region id="SO" name="Somalia"                          type="NATION" capital="Mogadishu" />
+        <region id="ZA" name="South Africa"                     type="NATION" capital="Pretoria" />
+        <region id="SS" name="South Sudan"                      type="NATION" capital="Juba" />
+        <region id="SD" name="Sudan"                            type="NATION" capital="Khartoum" />
+        <region id="SZ" name="Swaziland"                        type="NATION" capital="Lobamba" />
+        <region id="TZ" name="Tanzania"                         type="NATION" capital="Dodoma" />
+        <region id="TG" name="Togo"                             type="NATION" capital="Lomé" />
+        <region id="TN" name="Tunisia"                          type="NATION" capital="Tunis" />
+        <region id="UG" name="Uganda"                           type="NATION" capital="Kampala" />
+        <region id="ZM" name="Zambia"                           type="NATION" capital="Lusaka" />
+        <region id="ZW" name="Zimbabwe"                         type="NATION" capital="Harare" />
+
+        <!-- NORTH AMERICAN NATIONS -->
+        <region id="BS" name="Bahamas"              type="NATION" capital="Nassau" />
+        <region id="BZ" name="Belize"               type="NATION" capital="Belmopan" />
+        <region id="CA" name="Canada"               type="NATION" capital="Ottawa" />
+        <region id="CR" name="Costa Rica"           type="NATION" capital="San Jose" />
+        <region id="CU" name="cuba"                 type="NATION" capital="Havana" />
+        <region id="DO" name="Dominican Republic"   type="NATION" capital="Santo Domingo" />
+        <region id="SV" name="El Salvador"          type="NATION" capital="San Salvador" />
+        <region id="GT" name="Guatemala"            type="NATION" capital="Guatemala City" />
+        <region id="HT" name="Haiti"                type="NATION" capital="Port-au-Prince" />
+        <region id="HN" name="Honduras"             type="NATION" capital="Tegucigalpa" />
+        <region id="JM" name="Jamaica"              type="NATION" capital="Kingston" />
+        <region id="MX" name="Mexico"               type="NATION" capital="Mexico City" />
+        <region id="NI" name="Nicaragua"            type="NATION" capital="Managua" />
+        <region id="PA" name="Panama"               type="NATION" capital="Panama City" />
+        <region id="TT" name="Trinidad and Tobago"  type="NATION" capital="Port of Spain" />
+        <region id="US" name="United States"        type="NATION" capital="Washington, D.C." />
+    
+        <!-- CANADA STATES (i.e. provinces) -->
+        <region id="CA_AB" name="Alberta"                      type="STATE" capital="Edmonton" />
+        <region id="CA_BC" name="British Columbia"             type="STATE" capital="Victoria" />
+        <region id="CA_MB" name="Manitoba"                     type="STATE" capital="Winnipeg" />
+        <region id="CA_NB" name="New Brunswick"                type="STATE" capital="Fredericton" />
+        <region id="CA_NL" name="Newfoundland and Labrador"    type="STATE" capital="St. John's" />
+        <region id="CA_NT" name="Northwest Territories"        type="STATE" capital="Yellowknife" />
+        <region id="CA_NS" name="Nova Scotia"                  type="STATE" capital="Halifax" />
+        <region id="CA_NU" name="Nunavut"                      type="STATE" capital="Iqaluit" />
+        <region id="CA_ON" name="Ontario"                      type="STATE" capital="Toronto" />
+        <region id="CA_PE" name="Prince Edward Island"         type="STATE" capital="Charlottetown" />
+        <region id="CA_QC" name="Quebec"                       type="STATE" capital="Quebec City" />
+        <region id="CA_SK" name="Saskatchewan"                 type="STATE" capital="Regina" />
+        <region id="CA_YT" name="Yukon"                        type="STATE" capital="Whitehorse" />
+
+        <!-- UNITED STATES STATES -->
+        <region id="US_AL" name="Alabama"           type="STATE" capital="Montgomery" />
+        <region id="US_AK" name="Alaska"            type="STATE" capital="Juneau" />
+        <region id="US_AZ" name="Arizona"           type="STATE" capital="Phoenix" />
+        <region id="US_AR" name="Arkansas"          type="STATE" capital="Little Rock" />
+        <region id="US_CA" name="California"        type="STATE" capital="Sacramento" />
+        <region id="US_CO" name="Colorado"          type="STATE" capital="Denver" />
+        <region id="US_CT" name="Connecticut"       type="STATE" capital="Hartford" />
+        <region id="US_DE" name="Delaware"          type="STATE" capital="Dover" />
+        <region id="US_FL" name="Florida"           type="STATE" capital="Tallahassee" />
+        <region id="US_GA" name="Georgia"           type="STATE" capital="Atlanta" />
+        <region id="US_HI" name="Hawai'i"           type="STATE" capital="Honolulu" />
+        <region id="US_ID" name="Idaho"             type="STATE" capital="Boise" />
+        <region id="US_IL" name="Illinois"          type="STATE" capital="Springfield" />
+        <region id="US_IN" name="Indiana"           type="STATE" capital="Indianapolis" />
+        <region id="US_IA" name="Iowa"              type="STATE" capital="Des Moines" />
+        <region id="US_KS" name="Kansas"            type="STATE" capital="Topeka" />
+        <region id="US_KY" name="Kentucky"          type="STATE" capital="Frankfort" />
+        <region id="US_LA" name="Louisiana"         type="STATE" capital="Baton Rouge" />
+        <region id="US_ME" name="Maine"             type="STATE" capital="Augusta" />
+        <region id="US_MD" name="Maryland"          type="STATE" capital="Annapolis" />
+        <region id="US_MA" name="Massachusetts"     type="STATE" capital="Boston" />
+        <region id="US_MI" name="Michigan"          type="STATE" capital="Lansing" />
+        <region id="US_MN" name="Minnesota"         type="STATE" capital="Saint Paul" />
+        <region id="US_MS" name="Mississippi"       type="STATE" capital="Jackson" />
+        <region id="US_MO" name="Missouri"          type="STATE" capital="Jefferson City" />
+        <region id="US_MT" name="Montana"           type="STATE" capital="Helena" />
+        <region id="US_NE" name="Nebraska"          type="STATE" capital="Lincoln" />
+        <region id="US_NV" name="Nevada"            type="STATE" capital="Carson City" />
+        <region id="US_NH" name="New Hampshire"     type="STATE" capital="Concord" />
+        <region id="US_NJ" name="New Jersey"        type="STATE" capital="Trenton" />
+        <region id="US_NM" name="New Mexico"        type="STATE" capital="Santa Fe" />
+        <region id="US_NY" name="New York"          type="STATE" capital="Albany" />
+        <region id="US_NC" name="North Carolina"    type="STATE" capital="Raleigh" />
+        <region id="US_ND" name="North Dakota"      type="STATE" capital="Bismarck" />
+        <region id="US_OH" name="Ohio"              type="STATE" capital="Columbus" />
+        <region id="US_OK" name="Oklahoma"          type="STATE" capital="Oklahoma City" />
+        <region id="US_OR" name="Oregon"            type="STATE" capital="Salem" />
+        <region id="US_PA" name="Pennsylvania"      type="STATE" capital="Harrisburg" />
+        <region id="US_RI" name="Rhode Island"      type="STATE" capital="Providence" />
+        <region id="US_SC" name="South Carolina"    type="STATE" capital="Columbia" />
+        <region id="US_SD" name="South Dakota"      type="STATE" capital="Pierre" />
+        <region id="US_TN" name="Tennessee"         type="STATE" capital="Nashville" />
+        <region id="US_TX" name="Texas"             type="STATE" capital="Austin" />
+        <region id="US_UT" name="Utah"              type="STATE" capital="Salt Lake City" />
+        <region id="US_VT" name="Vermont"           type="STATE" capital="Montpelier" />
+        <region id="US_VA" name="Virginia"          type="STATE" capital="Richmond" />
+        <region id="US_WA" name="Washington"        type="STATE" capital="Olympia " />
+        <region id="US_WV" name="West Virginia "    type="STATE" capital="Charleston" />
+        <region id="US_WI" name="Wisconsin"         type="STATE" capital="Madison" />
+        <region id="US_WY" name="Wyoming"           type="STATE" capital="Cheyenne" />
+
+        <!-- CONNECTICUT COUNTIES -->
+        <region id="US_CT_FA" name="Fairfield"  type="COUNTY" />
+        <region id="US_CT_HA" name="Hartford"   type="COUNTY" />
+        <region id="US_CT_LI" name="Litchfield" type="COUNTY" />
+        <region id="US_CT_MI" name="Middlesex"  type="COUNTY" />
+        <region id="US_CT_NH" name="New Haven"  type="COUNTY" />
+        <region id="US_CT_NL" name="New London" type="COUNTY" />
+        <region id="US_CT_TO" name="Tolland"    type="COUNTY" />
+        <region id="US_CT_WI" name="Windham"    type="COUNTY" />
+        
+        <!-- NEW YORK COUNTIES -->
+        <region id="US_NY_AB" name="Albany"         type="COUNTY" capital="Albany"          />
+        <region id="US_NY_AL" name="Allegany"       type="COUNTY" capital="Belmont"         />
+        <region id="US_NY_BX" name="Bronx"          type="COUNTY" capital="The Bronx"       />
+        <region id="US_NY_BR" name="Broome"         type="COUNTY" capital="Binghamton"      />
+        <region id="US_NY_CT" name="Cattaraugus"    type="COUNTY" capital="Little Valley"   />
+        <region id="US_NY_CY" name="Cayuga"         type="COUNTY" capital="Auburn"          />
+        <region id="US_NY_CU" name="Chautauqua"     type="COUNTY" capital="Mayville"        />
+        <region id="US_NY_CG" name="Chemung"        type="COUNTY" capital="Elmira"          />
+        <region id="US_NY_CO" name="Chenango"       type="COUNTY" capital="Norwich"         />
+        <region id="US_NY_CL" name="Clinton"        type="COUNTY" capital="Plattsburgh"     />
+        <region id="US_NY_CB" name="Columbia"       type="COUNTY" capital="Hudson"          />
+        <region id="US_NY_CR" name="Cortland"       type="COUNTY" capital="Cortland"        />
+        <region id="US_NY_DE" name="Delaware"       type="COUNTY" capital="Delhi"           />
+        <region id="US_NY_DU" name="Dutchess"       type="COUNTY" capital="Poughkeepsie"    />
+        <region id="US_NY_ER" name="Eire"           type="COUNTY" capital="Buffalo"         />
+        <region id="US_NY_ES" name="Essex"          type="COUNTY" capital="Elizabethtown"   />
+        <region id="US_NY_FR" name="Franklin"       type="COUNTY" capital="Malone"          />
+        <region id="US_NY_FU" name="Fulton"         type="COUNTY" capital="Johnstown"       />
+        <region id="US_NY_GE" name="Genesee"        type="COUNTY" capital="Batavia"         />
+        <region id="US_NY_GR" name="Greene"         type="COUNTY" capital="Catskill"        />
+        <region id="US_NY_HA" name="Hamilon"        type="COUNTY" capital="Lake Pleasant"   />
+        <region id="US_NY_HE" name="Herkimer"       type="COUNTY" capital="Herkimer"        />
+        <region id="US_NY_JE" name="Jefferson"      type="COUNTY" capital="Watertown"       />
+        <region id="US_NY_KI" name="Kings"          type="COUNTY" capital="Brooklyn"        />
+        <region id="US_NY_LE" name="Lewis"          type="COUNTY" capital="Lowville"        />
+        <region id="US_NY_LI" name="Livingston"     type="COUNTY" capital="Geneseo"         />
+        <region id="US_NY_MA" name="Madison"        type="COUNTY" capital="Wampsville"      />
+        <region id="US_NY_MO" name="Monroe"         type="COUNTY" capital="Rochester"       />
+        <region id="US_NY_MG" name="Montgomery"     type="COUNTY" capital="Fonda"           />
+        <region id="US_NY_NA" name="Nassau"         type="COUNTY" capital="Mineola"         />
+        <region id="US_NY_NY" name="New York"       type="COUNTY" capital="Manhattan"       />
+        <region id="US_NY_NI" name="Niagara"        type="COUNTY" capital="Lockport"        />
+        <region id="US_NY_ON" name="Oneida"         type="COUNTY" capital="Utica"           />
+        <region id="US_NY_OO" name="Onondaga"       type="COUNTY" capital="Syracuse"        />
+        <region id="US_NY_OT" name="Ontario"        type="COUNTY" capital="Canandaigua"     />
+        <region id="US_NY_OR" name="Orange"         type="COUNTY" capital="Goshen"          />
+        <region id="US_NY_OL" name="Orleans"        type="COUNTY" capital="Albion"          />
+        <region id="US_NY_OS" name="Oswego"         type="COUNTY" capital="Oswego"          />
+        <region id="US_NY_OG" name="Otsego"         type="COUNTY" capital="Otsego"          />
+        <region id="US_NY_PU" name="Putnam"         type="COUNTY" capital="Carmel"          />
+        <region id="US_NY_QU" name="Queens"         type="COUNTY" capital="Queens"          />
+        <region id="US_NY_RE" name="Rensselaer"     type="COUNTY" capital="Troy"            />
+        <region id="US_NY_RI" name="Richmond"       type="COUNTY" capital="Staten Island"   />
+        <region id="US_NY_RO" name="Rockland"       type="COUNTY" capital="New City"        />
+        <region id="US_NY_SL" name="St. Lawrence"   type="COUNTY" capital="Canton"          />
+        <region id="US_NY_SA" name="Saratoga"       type="COUNTY" capital="Ballston Spa"    />
+        <region id="US_NY_SC" name="Schenectady"    type="COUNTY" capital="Schenectady"     />
+        <region id="US_NY_SH" name="Schoharie"      type="COUNTY" capital="Schoharie"       />
+        <region id="US_NY_SY" name="Schuyler"       type="COUNTY" capital="Watkins Glen"    />
+        <region id="US_NY_SE" name="Seneca"         type="COUNTY" capital="Waterloo"        />
+        <region id="US_NY_ST" name="Steuben"        type="COUNTY" capital="Bath"            />
+        <region id="US_NY_SF" name="Suffolk"        type="COUNTY" capital="Riverhead"       />
+        <region id="US_NY_SU" name="Sullivan"       type="COUNTY" capital="Monticello"      />
+        <region id="US_NY_TI" name="Tioga"          type="COUNTY" capital="Oswego"          />
+        <region id="US_NY_TO" name="Tompkins"       type="COUNTY" capital="Ithaca"          />
+        <region id="US_NY_UL" name="Ulster"         type="COUNTY" capital="Kingston"        />
+        <region id="US_NY_WR" name="Warren"         type="COUNTY" capital="Queensbury"      />
+        <region id="US_NY_WS" name="Washington"     type="COUNTY" capital="Fort Edward"     />
+        <region id="US_NY_WA" name="Wayne"          type="COUNTY" capital="Lyons"           />
+        <region id="US_NY_WE" name="Westchester"    type="COUNTY" capital="White Plains"    />
+        <region id="US_NY_WY" name="Wyoming"        type="COUNTY" capital="Warsaw"          />
+        <region id="US_NY_YA" name="Yates"          type="COUNTY" capital="Penn Yan"        />
+        
+    </regions_list>
+
+    <regions_mappings>
+    
+        <!-- THE WORLD AND IT'S CONTINENTS -->
+        <region id="World">
+            <sub_region id="Africa" />
+            <sub_region id="Antarctica" />
+            <sub_region id="Asia" />
+            <sub_region id="Europe" />
+            <sub_region id="North America" />
+            <sub_region id="South America" />
+        </region>
+    
+        <!-- AFRICAN NATIONS -->
+        <region id="Africa">
+            <sub_region id="DZ"/>
+            <sub_region id="AO"/>
+            <sub_region id="BJ"/>
+            <sub_region id="BW"/>
+            <sub_region id="BF"/>
+            <sub_region id="BI"/>
+            <sub_region id="CM"/>
+            <sub_region id="CV"/>
+            <sub_region id="CF"/>
+            <sub_region id="TD"/>
+            <sub_region id="KM"/>
+            <sub_region id="CD"/>
+            <sub_region id="CG"/>
+            <sub_region id="CI"/>
+            <sub_region id="DJ"/>
+            <sub_region id="EG"/>
+            <sub_region id="GQ"/>
+            <sub_region id="ER"/>
+            <sub_region id="ET"/>
+            <sub_region id="GA"/>
+            <sub_region id="GM"/>
+            <sub_region id="GH"/>
+            <sub_region id="GN"/>
+            <sub_region id="GW"/>
+            <sub_region id="KE"/>
+            <sub_region id="LS"/>
+            <sub_region id="LR"/>
+            <sub_region id="LY"/>
+            <sub_region id="MG"/>
+            <sub_region id="MW"/>
+            <sub_region id="ML"/>
+            <sub_region id="MR"/>
+            <sub_region id="MU"/>
+            <sub_region id="MA"/>
+            <sub_region id="MZ"/>
+            <sub_region id="NA"/>
+            <sub_region id="NE"/>
+            <sub_region id="NG"/>
+            <sub_region id="RW"/>
+            <sub_region id="ST"/>
+            <sub_region id="SN"/>
+            <sub_region id="SC"/>
+            <sub_region id="SL"/>
+            <sub_region id="SO"/>
+            <sub_region id="ZA"/>
+            <sub_region id="SS"/>
+            <sub_region id="SD"/>
+            <sub_region id="SZ"/>
+            <sub_region id="TZ"/>
+            <sub_region id="TG"/>
+            <sub_region id="TN"/>
+            <sub_region id="UG"/>
+            <sub_region id="ZM"/>
+            <sub_region id="ZW"/>
+        </region>
+
+        <!-- NORTH AMERICAN NATIONS -->    
+        <region id="North America">
+            <sub_region id="BS" />
+            <sub_region id="BZ" />
+            <sub_region id="CA" />
+            <sub_region id="CR" />
+            <sub_region id="CU" />
+            <sub_region id="DO" />
+            <sub_region id="SV" />
+            <sub_region id="GT" />
+            <sub_region id="HT" />
+            <sub_region id="HN" />
+            <sub_region id="JM" />
+            <sub_region id="MX" />
+            <sub_region id="NI" />
+            <sub_region id="PA" />
+            <sub_region id="TT" />
+            <sub_region id="US" />
+        </region>
+    
+        <!-- CANADA STATES (i.e. PROVINCES) -->
+        <region id="CA">
+            <sub_region id="CA_AB" />
+            <sub_region id="CA_BC" />
+            <sub_region id="CA_MB" />
+            <sub_region id="CA_NB" />
+            <sub_region id="CA_NL" />
+            <sub_region id="CA_NT" />
+            <sub_region id="CA_NS" />
+            <sub_region id="CA_NU" />
+            <sub_region id="CA_ON" />
+            <sub_region id="CA_PE" />
+            <sub_region id="CA_QC" />
+            <sub_region id="CA_SK" />
+            <sub_region id="CA_YT" />
+        </region>
+
+        <!-- UNITED STATES STATES -->    
+        <region id="US">
+            <sub_region id="US_AL" />
+            <sub_region id="US_AK" />
+            <sub_region id="US_AZ" />
+            <sub_region id="US_AR" />
+            <sub_region id="US_CA" />
+            <sub_region id="US_CO" />
+            <sub_region id="US_CT" />
+            <sub_region id="US_DE" />
+            <sub_region id="US_FL" />
+            <sub_region id="US_GA" />
+            <sub_region id="US_HI" />
+            <sub_region id="US_ID" />
+            <sub_region id="US_IL" />
+            <sub_region id="US_IN" />
+            <sub_region id="US_IA" />
+            <sub_region id="US_KS" />
+            <sub_region id="US_KY" />
+            <sub_region id="US_LA" />
+            <sub_region id="US_ME" />
+            <sub_region id="US_MD" />
+            <sub_region id="US_MA" />
+            <sub_region id="US_MI" />
+            <sub_region id="US_MN" />
+            <sub_region id="US_MS" />
+            <sub_region id="US_MO" />
+            <sub_region id="US_MT" />
+            <sub_region id="US_NE" />
+            <sub_region id="US_NV" />
+            <sub_region id="US_NH" />
+            <sub_region id="US_NJ" />
+            <sub_region id="US_NM" />
+            <sub_region id="US_NY" />
+            <sub_region id="US_NC" />
+            <sub_region id="US_ND" />
+            <sub_region id="US_OH" />
+            <sub_region id="US_OK" />
+            <sub_region id="US_OR" />
+            <sub_region id="US_PA" />
+            <sub_region id="US_RI" />
+            <sub_region id="US_SC" />
+            <sub_region id="US_SD" />
+            <sub_region id="US_TN" />
+            <sub_region id="US_TX" />
+            <sub_region id="US_UT" />
+            <sub_region id="US_VT" />
+            <sub_region id="US_VA" />
+            <sub_region id="US_WA" />
+            <sub_region id="US_WV" />
+            <sub_region id="US_WI" />
+            <sub_region id="US_WY" />
+        </region>
+    
+        <!-- CONNECTICUT COUNTIES -->
+        <region id="US_CT">
+            <sub_region id="US_CT_FA" />
+            <sub_region id="US_CT_HA" />
+            <sub_region id="US_CT_LI" />
+            <sub_region id="US_CT_MI" />
+            <sub_region id="US_CT_NH" />
+            <sub_region id="US_CT_NL" />
+            <sub_region id="US_CT_TO" />
+            <sub_region id="US_CT_WI" />
+        </region>
+    
+        <region id="US_NY">
+            <sub_region id="US_NY_AB" />
+            <sub_region id="US_NY_AL" />
+            <sub_region id="US_NY_BX" />
+            <sub_region id="US_NY_BR" />
+            <sub_region id="US_NY_CT" />
+            <sub_region id="US_NY_CY" />
+            <sub_region id="US_NY_CU" />
+            <sub_region id="US_NY_CG" />
+            <sub_region id="US_NY_CO" />
+            <sub_region id="US_NY_CL" />
+            <sub_region id="US_NY_CB" />
+            <sub_region id="US_NY_CR" />
+            <sub_region id="US_NY_DE" />
+            <sub_region id="US_NY_DU" />
+            <sub_region id="US_NY_ER" />
+            <sub_region id="US_NY_ES" />
+            <sub_region id="US_NY_FR" />
+            <sub_region id="US_NY_FU" />
+            <sub_region id="US_NY_GE" />
+            <sub_region id="US_NY_GR" />
+            <sub_region id="US_NY_HA" />
+            <sub_region id="US_NY_HE" />
+            <sub_region id="US_NY_JE" />
+            <sub_region id="US_NY_KI" />
+            <sub_region id="US_NY_LE" />
+            <sub_region id="US_NY_LI" />
+            <sub_region id="US_NY_MA" />
+            <sub_region id="US_NY_MO" />
+            <sub_region id="US_NY_MG" />
+            <sub_region id="US_NY_NA" />
+            <sub_region id="US_NY_NY" />
+            <sub_region id="US_NY_NI" />
+            <sub_region id="US_NY_ON" />
+            <sub_region id="US_NY_OO" />
+            <sub_region id="US_NY_OT" />
+            <sub_region id="US_NY_OR" />
+            <sub_region id="US_NY_OL" />
+            <sub_region id="US_NY_OS" />
+            <sub_region id="US_NY_OG" />
+            <sub_region id="US_NY_PU" />
+            <sub_region id="US_NY_QU" />
+            <sub_region id="US_NY_RE" />
+            <sub_region id="US_NY_RI" />
+            <sub_region id="US_NY_RO" />
+            <sub_region id="US_NY_SL" />
+            <sub_region id="US_NY_SA" />
+            <sub_region id="US_NY_SC" />
+            <sub_region id="US_NY_SH" />
+            <sub_region id="US_NY_SY" />
+            <sub_region id="US_NY_SE" />
+            <sub_region id="US_NY_ST" />
+            <sub_region id="US_NY_SF" />
+            <sub_region id="US_NY_SU" />
+            <sub_region id="US_NY_TI" />
+            <sub_region id="US_NY_TO" />
+            <sub_region id="US_NY_UL" />
+            <sub_region id="US_NY_WR" />
+            <sub_region id="US_NY_WS" />
+            <sub_region id="US_NY_WA" />
+            <sub_region id="US_NY_WE" />
+            <sub_region id="US_NY_WY" />
+            <sub_region id="US_NY_YA" />        
+        </region>
+    </regions_mappings>
+</world_regions>
